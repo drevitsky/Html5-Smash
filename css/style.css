@@ -1,0 +1,178 @@
+
+/* Style  for Html5smash */
+* {
+	box-sizing: border-box;
+}
+
+body{
+	
+	font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
+ 
+	font-size: 14px;
+	background-color: #888;
+	margin: 0
+
+	
+}
+a{
+color:#C74451;
+text-decoration: none;
+border-bottom: 2 px solid #C74451;
+transition: all .5s ease-out;
+
+}
+.conteiner{
+	width: 55%;
+	margin: 0 auto;
+}
+
+
+ .head-1{
+	color: black;
+	/* font-size: 18px; */
+	border: none;
+	width: 55%;
+	margin: 0;
+text-decoration: none;
+}
+
+.head-1:hover,
+.head-1:focus {
+
+color: #C74451;
+transition: all .5s ease-in;
+background:transparent;
+} 
+h1 {
+	
+	font-size: 50px;
+	margin-bottom:0;
+/* color: black; */
+}
+h1 p {
+font-size: 18px;
+
+}
+h2 {
+	color: #C74451;
+	font-size: 24px;
+}
+.post h3 a{
+border: none;
+
+}
+
+.post h3{
+margin: 10px 0 ;
+
+}
+.post p{
+margin-bottom: 0;
+
+}
+
+.post--main h3 a {
+
+	color: inherit;
+}
+article{
+	background-color: white;
+	padding: 10px;
+	
+}
+ 
+
+a:hover,
+a:focus{
+background: #C74451;
+color: #fff;
+transition: all .5s ease-in; 
+
+}
+.post + .post{
+	border-top: 1px solid:#ccc;
+	margin-top: 10px;
+
+}
+
+
+.box{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px; 
+	margin-bottom:20px;  
+}
+
+*{
+	box-sizing: border-box;
+}
+ 
+.menu {
+	list-style-type: none;/*убираем точки списка ul?*/
+	padding: 0;
+	/* width:40% ; */
+}
+.menu li {
+
+	border-bottom: 1px solid #fff;
+}
+.menu li a {
+
+	display: inline-block;
+	width: 100%;
+	padding: 8px;
+	/* border: none; */
+	border-bottom: 1px solid #F4E3E3;
+	color: inherit;
+}
+ .menu li a:hover,
+ .menu li a:focus{
+
+ 	color: #fff;
+ }
+ aside h3{
+
+ 	color: #C74451;
+ }
+.flex-row{
+
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.flex-item {
+width: 40%;
+
+}
+.flex-item--lg {
+width: 60%;
+
+}
+.footer-link{
+
+font-size:18px;
+border-bottom: none; 
+
+}
+.text-right{
+
+	text-align: right;
+}
+footer.conteiner {
+	margin-bottom: 20px;
+}
+main{
+
+	width: 65%
+}
+aside{
+	width: 35%;
+	padding-right: 20px;
+}
+
+.flex-reverse {
+
+	flex-direction: row-reverse;
+}
